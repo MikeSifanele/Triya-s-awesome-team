@@ -1,0 +1,263 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "LandingPage Functionality",
+    "line": 1,
+    "id": "landingpage-functionality",
+    "tags": [],
+    "uri": "LandingPage.feature",
+    "elements": [
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-landingpage-in-order-to-see-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I want to navigate to landingpage in order to see the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-dashboard-in-order-to-see-top-4-heroes-displayed.",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a TOH user, I want to navigate to dashboard in order to see top 4 Heroes displayed.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "The user is on the dashboard.",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "four heroes should be displayed.",
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-select-a-hero-from-the-dashboard-in-order-to-see-the-heroes-details-displayed",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "As a TOH user, I want to select a hero from the dashboard in order to see the heroes details displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user clicks on a Hero tile",
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user should see the heroes details displayed",
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-heroes-page-in-order-to-see-9",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a TOH user, I want to navigate to heroes page in order to see 9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user navigates to heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "user should see nine heroes",
+            "result": {
+              "status": "passed",
+              "duration": 474000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-remove-a-hero-in-order-to-see-the-hero-list-decrease",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "As a TOH user, I want to remove a hero in order to see the hero list decrease",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user clicks on delete button so heroes count should decrease by one",
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-add-a-hero-in-order-to-see-the-hero-list-increase",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "As a TOH user, I want to add a hero in order to see the hero list increase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user enters a name in the textbox, clicks the add button heroes and count should increase by one",
+            "result": {
+              "status": "passed",
+              "duration": 992000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-add-a-hero-without-a-name-in-order-to-see-the-hero-list-remain-the-same",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "As a TOH user, I want to add a hero without a name in order to see the hero list remain the same",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user clicks the add button with no name",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "count of heroes should stay the same",
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
